@@ -11,7 +11,12 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'PYTHONPATH=$PWD . venv/bin/activate && pytest tests/'
+                sh '''
+                PYTHONPATH=$PWD bash -c "
+                source venv/bin/activate
+                pytest tests/
+                "
+                '''
             }
         }
 
