@@ -1,3 +1,3 @@
 # Jenkins testing
 
-Testa
+Projekt används för testning inom Jenkins.
