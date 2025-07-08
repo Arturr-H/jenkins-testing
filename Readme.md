@@ -1,3 +1,3 @@
 # Jenkins testing
 
-Testa walla :P
+Project använt för testing inom Jenkins.
